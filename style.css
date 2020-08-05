@@ -1,0 +1,103 @@
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: E6E9F0;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    box-shadow: 10px 10px 15px rgb(192,183,183),-10px -10px 15px white;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+}
+.container .heading{
+    padding: 40px 0px 45px 0px;
+    color:#ff99ff ;
+    font-weight: bolder;
+    
+}
+h2{
+    border-radius: 20px;
+    text-shadow: 3px 3px 5px rgb(185,183,183),-3px -3px 5px white;
+}
+.container .user{
+    padding: 7px 0px;
+    
+}
+.container .user input{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    outline:none;
+    background:#ff99ff;
+    color: white;
+    box-shadow: 3px 3px 5px rgb(185,183,183),-3px -3px 5px white;
+}
+.container .user input:hover{
+    box-shadow: 5px 5px 8px rgb(185,183,183),-5px -5px 8px white;
+    transform: scale(1.1);
+    transition: 0.3s ease all;
+}
+.container .user input::placeholder{
+    color: white;
+}
+.container .button input{
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    background-color:#ff99ff;
+    color: white;
+    margin-top: 5px;
+    box-shadow: 3px 3px 5px rgb(185,183,183),-3px -3px 5px white;
+}
+.container .button input:hover{
+    box-shadow: 5px 5px 8px rgb(185,183,183),-5px -5px 8px white;
+    transform: scale(1.1);
+    transition: 0.3s ease all;
+}
+.container .help{
+     color:  #000033;
+}
+.container .help span{
+    font-weight: bolder;
+    font-size: 16px;
+    color:  #000066;
+    
+}
+
+.container .socail{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fa{
+    width: 30px;
+    border-radius:50%; 
+    background-color: #ff99ff;
+    align-items: center;
+    box-shadow: 3px 3px 5px rgb(185,182,182),-3px -3px 5px white;
+    align-content: center;
+    
+}
+.fa:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
